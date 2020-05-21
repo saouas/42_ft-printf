@@ -1,0 +1,22 @@
+**22/01**
+
+-	gerer la presence d'argument NULL
+
+-	introduction du flag & pour checker la presence de 0 seul sans digit apres
+travail en cours sur ft_find_flag
+probleme trouver grace au test de conversion du flag h avec %d
+
+
+enlever printmap de ft_printf
+norme
+checker
+
+**28/01** - **30/01**
+- Adding space flag for float  ***OK***
+- Fixing various bug about # flag ***OK***
+- Checkers for float ***OK***
+test d'espace
+	ft_printf("size + space:% 5hd ", nb);
+	printf("\n");	
+	ret2 = dprintf(2, "size + space:% 5hd ", nb);
+	printf("\n\n");
